@@ -1,0 +1,22 @@
+﻿# Frontend dependencies and build output
+capiq-frontend/node_modules/
+capiq-frontend/dist/
+capiq-frontend/.env
+capiq-frontend/.env.*
+!capiq-frontend/.env.example
+
+# Backend build output
+capiq-backend/target/
+
+# Local secrets and configuration
+capiq-backend/.env
+capiq-backend/.env.*
+!capiq-backend/.env.example
+capiq-backend/src/main/resources/application-local.properties
+capiq-backend/src/main/resources/application.properties
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
